@@ -42,9 +42,9 @@ footer .contact-me a {
   border-radius: 5px;
   text-decoration: none;
   padding: 1.3rem 3.6rem;
-  background-color: #222322;
+  background-color: #04AA6D;
 }
 
 footer .contact-me a:hover {
-  background-color: #333433;
+  background-color: #222322;
 }

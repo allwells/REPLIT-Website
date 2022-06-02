@@ -5,8 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Allwell Onen - Register</title>
-  <link href="css/index.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="css/register.css" rel="stylesheet" type="text/css" />
+  <link href="css/navbar.css" rel="stylesheet" type="text/css" />
+  <link href="css/footer.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -17,14 +19,97 @@
         <li><a href="contact.html">Contact</a></li>
         <li><a href="login.html">Login</a></li>
         <li><a class="active" href="register.html">Register</a></li>
-    </ul>
+      </ul>
     </nav>
   </header>
-  
+
   <main>
+    <div class="login-container">
+      <div>
+        <h2>Register</h2>
+      </div>
+      <form action="#">
+        <div class="two-in-one">
+          <div>
+            <label for="fname">First Name<span>*</span></label>
+            <input class="fname" id="fname" name="fname" type="text" placeholder="Enter your first name" required />
+          </div>
+
+          <div>
+            <label for="lname">Last Name</label>
+            <input class="lname" id="lname" name="lname" type="text" placeholder="Enter your last name" />
+          </div>
+        </div>
+
+
+        <div class="two-in-one">
+          <div>
+            <label for="phone">Phone</label>
+            <input class="phone" id="phone" name="phone" type="tel" placeholder="Enter your phone number" />
+          </div>
+
+          <div>
+            <label for="gender">Gender</label>
+            <select class="gender" id="gender" name="gender" placeholder="-- Select --">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="two-in-one">
+          <div>
+            <label for="country">Country</label>
+            <input class="country" id="country" name="country" type="text" placeholder="Enter your country" />
+          </div>
+
+          <div>
+            <label for="state">State/Province</label>
+            <input class="state" id="state" name="state" type="text" placeholder="Enter your state/province" />
+          </div>
+        </div>
+
+        <div class="two-in-one">
+          <div class="email-container">
+            <label for="email">Email address<span>*</span></label>
+            <input class="email" id="email" name="email" type="email" placeholder="Enter your email" required />
+          </div>
+        </div>
+
+        <div class="two-in-one">
+          <div>
+            <label for="password">Password<span>*</span></label>
+            <input class="password" id="password" name="password" type="password" placeholder="Enter your password"
+              required />
+          </div>
+
+          <div>
+            <label for="password-confirmation">Password Confirmation<span>*</span></label>
+            <input class="password-confirmation" id="password-confirmation" name="password-confirmation" type="password"
+              placeholder="Confirm your password" required />
+          </div>
+        </div>
+
+        <div class="signup-container">
+          <button type="submit" class="signup-btn">
+            Sign Up
+          </button>
+        </div>
+      </form>
+    </div>
   </main>
-  
-  <footer></footer>
+
+  <footer>
+    <div class="contact-me">
+      <h2>Contact</h2>
+      <p>Do you want to get something done and need someone who is reliable? Contact me and let's talk about making your
+        idea a reality.</p>
+      <a href="contact.html">Contact Me</a>
+    </div>
+    <div class="copyright">
+      Copyright &copy; 2022 Allwell Onen
+    </div>
+  </footer>
   <script src="js/script.js"></script>
 </body>
 

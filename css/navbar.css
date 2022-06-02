@@ -1,12 +1,12 @@
 * {
   scroll-behavior: smooth;
   transition-duration: 0.4s;
+  font-family: Nunito !important;
 }
 
 html, body {
   margin: 0;
   padding: 0;
-  font-family: monospace;
   background-color: whitesmoke;
 }
 

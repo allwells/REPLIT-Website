@@ -5,8 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Allwell Onen - Login</title>
-  <link href="css/index.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="css/login.css" rel="stylesheet" type="text/css" />
+  <link href="css/navbar.css" rel="stylesheet" type="text/css" />
+  <link href="css/footer.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -17,14 +19,48 @@
         <li><a href="contact.html">Contact</a></li>
         <li><a class="active" href="login.html">Login</a></li>
         <li><a href="register.html">Register</a></li>
-    </ul>
+      </ul>
     </nav>
   </header>
-  
+
   <main>
+    <div class="login-container">
+      <div>
+        <h2>Login</h2>
+      </div>
+      <form action="#">
+        <div>
+          <label for="email">Email address<span>*</span></label>
+          <input class="email" id="email" name="email" type="email" autocomplete="email" placeholder="Enter your email"
+            required />
+        </div>
+
+        <div>
+          <label for="password">Password<span>*</span></label>
+          <input class="password" id="password" name="password" type="password" placeholder="Enter your password"
+            required />
+        </div>
+
+        <div>
+          <button type="submit" class="login-btn">
+            Sign In
+          </button>
+        </div>
+      </form>
+    </div>
   </main>
-  
-  <footer></footer>
+
+  <footer>
+    <div class="contact-me">
+      <h2>Contact</h2>
+      <p>Do you want to get something done and need someone who is reliable? Contact me and let's talk about making your
+        idea a reality.</p>
+      <a href="contact.html">Contact Me</a>
+    </div>
+    <div class="copyright">
+      Copyright &copy; 2022 Allwell Onen
+    </div>
+  </footer>
   <script src="js/script.js"></script>
 </body>
 

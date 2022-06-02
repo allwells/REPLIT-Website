@@ -1,0 +1,102 @@
+main {
+  margin: 0 !important;
+  padding-top: 5rem !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.login-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div h2 {
+  color: #333;
+  font-weight: 700;
+  text-align: center;
+}
+
+form {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+form .two-in-one {
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form .two-in-one .email-container {
+  width: 100%;
+}
+
+form .two-in-one div {
+  width: 50%;
+  display: flex;
+  margin-bottom: 1.5rem;
+  flex-direction: column;
+}
+
+form label {
+  color: #444;
+  font-size: 14px;
+  margin-bottom: 0.6rem;
+}
+
+form label span {
+  color: #900;
+}
+
+form input, form select {
+  color: #444;
+  outline: none;
+  height: 2.5rem;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  background-color: whitesmoke;
+}
+
+form input:hover {
+  border: 1px solid #777;
+}
+
+form input:focus {
+  border: 1px solid #04AA6D;
+}
+
+form .signup-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form button {
+  width: 15rem;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.7rem 0;
+  border-radius: 5px;
+  background-color: #03995C;
+  border: 2px solid #03884B;
+  box-shadow: 4px 4px 10px #3336;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #15BB7E;
+  border: 2px solid #03995C;
+}
