@@ -1,4 +1,5 @@
 * {
+  scroll-behavior: smooth;
   transition-duration: 0.4s;
 }
 
@@ -7,6 +8,11 @@ html, body {
   padding: 0;
   font-family: monospace;
   background-color: whitesmoke;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
 }
 
 nav .active, nav .active:hover {
@@ -23,7 +29,7 @@ nav ul {
   height: fit-content;
   list-style-type: none;
   justify-content: center;
-  background-color: #333;
+  background-color: #222322;
 }
 
 nav li {

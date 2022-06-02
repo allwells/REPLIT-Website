@@ -48,7 +48,7 @@
 }
 
 .divider {
-  flex:1;
+  flex-grow: 1;
   height: 10px;
   border-bottom: 1px solid #444;
 }
